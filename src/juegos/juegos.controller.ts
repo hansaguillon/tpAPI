@@ -1,4 +1,4 @@
-import { Controller,Get } from '@nestjs/common';
+import { Controller,Get,Param } from '@nestjs/common';
 import { GamesService } from './juegos.service';
 
 
@@ -13,6 +13,12 @@ getAllGames()
 
         return this.gameService.getGames();
     }
+
+@Get(':id')
+getGamePorID(@Param('id')id:number)
+{
+    return this.gameService.getGamesByID(id);
+}
 
 
 }

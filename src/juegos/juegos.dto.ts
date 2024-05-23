@@ -22,5 +22,4 @@ export class gameDTO  {
     @Min(0)
     precio: number;
 
-
 }
