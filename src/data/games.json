@@ -1,10 +1,12 @@
-{
-"games":[
+[
   {
     "id": 1,
     "titulo": "The Last of Us Part II",
     "plataforma": "PlayStation",
-    "generos": ["Accion", "Aventura"],
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.7,
     "desarrolladora": "Naughty Dog",
@@ -14,7 +16,10 @@
     "id": 2,
     "titulo": "Red Dead Redemption 2",
     "plataforma": "PC",
-    "generos": ["Accion", "Aventura"],
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
     "anioLanzamiento": 2018,
     "calificacion": 4.9,
     "desarrolladora": "Rockstar Games",
@@ -24,7 +29,10 @@
     "id": 3,
     "titulo": "God of War",
     "plataforma": "PlayStation",
-    "generos": ["Accion", "Aventura"],
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
     "anioLanzamiento": 2018,
     "calificacion": 4.8,
     "desarrolladora": "Santa Monica Studio",
@@ -34,7 +42,10 @@
     "id": 4,
     "titulo": "The Legend of Zelda: Breath of the Wild",
     "plataforma": "Nintendo",
-    "generos": ["Aventura", "Accion"],
+    "generos": [
+      "Aventura",
+      "Accion"
+    ],
     "anioLanzamiento": 2017,
     "calificacion": 4.9,
     "desarrolladora": "Nintendo EPD",
@@ -44,7 +55,10 @@
     "id": 5,
     "titulo": "Grand Theft Auto V",
     "plataforma": "PC",
-    "generos": ["Accion", "Aventura"],
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
     "anioLanzamiento": 2013,
     "calificacion": 4.7,
     "desarrolladora": "Rockstar North",
@@ -54,7 +68,9 @@
     "id": 6,
     "titulo": "Super Smash Bros. Ultimate",
     "plataforma": "Nintendo",
-    "generos": ["Lucha"],
+    "generos": [
+      "Lucha"
+    ],
     "anioLanzamiento": 2018,
     "calificacion": 4.8,
     "desarrolladora": "Bandai Namco Studios",
@@ -64,7 +80,10 @@
     "id": 7,
     "titulo": "Horizon Zero Dawn",
     "plataforma": "PlayStation",
-    "generos": ["Accion", "Rol"],
+    "generos": [
+      "Accion",
+      "Rol"
+    ],
     "anioLanzamiento": 2017,
     "calificacion": 4.7,
     "desarrolladora": "Guerrilla Games",
@@ -74,7 +93,9 @@
     "id": 8,
     "titulo": "Minecraft",
     "plataforma": "PC",
-    "generos": ["Sandbox"],
+    "generos": [
+      "Sandbox"
+    ],
     "anioLanzamiento": 2009,
     "calificacion": 4.7,
     "desarrolladora": "Mojang Studios",
@@ -84,7 +105,9 @@
     "id": 9,
     "titulo": "Fortnite",
     "plataforma": "PC",
-    "generos": ["Battle Royale"],
+    "generos": [
+      "Battle Royale"
+    ],
     "anioLanzamiento": 2017,
     "calificacion": 4.6,
     "desarrolladora": "Epic Games",
@@ -94,7 +117,10 @@
     "id": 10,
     "titulo": "Cyberpunk 2077",
     "plataforma": "PC",
-    "generos": ["Rol", "Accion"],
+    "generos": [
+      "Rol",
+      "Accion"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.2,
     "desarrolladora": "CD Projekt Red",
@@ -104,7 +130,10 @@
     "id": 11,
     "titulo": "Assassin's Creed Valhalla",
     "plataforma": "PC",
-    "generos": ["Accion", "Aventura"],
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.5,
     "desarrolladora": "Ubisoft Montreal",
@@ -114,7 +143,10 @@
     "id": 12,
     "titulo": "Death Stranding",
     "plataforma": "PlayStation",
-    "generos": ["Accion", "Aventura"],
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
     "anioLanzamiento": 2019,
     "calificacion": 4.3,
     "desarrolladora": "Kojima Productions",
@@ -124,7 +156,9 @@
     "id": 13,
     "titulo": "Halo: The Master Chief Collection",
     "plataforma": "Xbox",
-    "generos": ["Shooter"],
+    "generos": [
+      "Shooter"
+    ],
     "anioLanzamiento": 2014,
     "calificacion": 4.7,
     "desarrolladora": "343 Industries",
@@ -134,7 +168,9 @@
     "id": 14,
     "titulo": "Super Mario Odyssey",
     "plataforma": "Nintendo",
-    "generos": ["Plataformas"],
+    "generos": [
+      "Plataformas"
+    ],
     "anioLanzamiento": 2017,
     "calificacion": 4.8,
     "desarrolladora": "Nintendo EPD",
@@ -144,7 +180,9 @@
     "id": 15,
     "titulo": "Resident Evil Village",
     "plataforma": "PC",
-    "generos": ["Survival horror"],
+    "generos": [
+      "Survival horror"
+    ],
     "anioLanzamiento": 2021,
     "calificacion": 4.6,
     "desarrolladora": "Capcom",
@@ -154,7 +192,10 @@
     "id": 16,
     "titulo": "Dark Souls III",
     "plataforma": "PC",
-    "generos": ["Rol", "Accion"],
+    "generos": [
+      "Rol",
+      "Accion"
+    ],
     "anioLanzamiento": 2016,
     "calificacion": 4.5,
     "desarrolladora": "FromSoftware",
@@ -164,7 +205,10 @@
     "id": 17,
     "titulo": "Uncharted 4: A Thief's End",
     "plataforma": "PlayStation",
-    "generos": ["Accion", "Aventura"],
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
     "anioLanzamiento": 2016,
     "calificacion": 4.8,
     "desarrolladora": "Naughty Dog",
@@ -174,7 +218,9 @@
     "id": 18,
     "titulo": "Overwatch",
     "plataforma": "PC",
-    "generos": ["Shooter"],
+    "generos": [
+      "Shooter"
+    ],
     "anioLanzamiento": 2016,
     "calificacion": 4.6,
     "desarrolladora": "Blizzard Entertainment",
@@ -184,7 +230,10 @@
     "id": 19,
     "titulo": "The Witcher 3: Wild Hunt",
     "plataforma": "PC",
-    "generos": ["Rol", "Accion"],
+    "generos": [
+      "Rol",
+      "Accion"
+    ],
     "anioLanzamiento": 2015,
     "calificacion": 4.9,
     "desarrolladora": "CD Projekt Red",
@@ -194,7 +243,9 @@
     "id": 20,
     "titulo": "Call of Duty: Modern Warfare",
     "plataforma": "PC",
-    "generos": ["Shooter"],
+    "generos": [
+      "Shooter"
+    ],
     "anioLanzamiento": 2019,
     "calificacion": 4.7,
     "desarrolladora": "Infinity Ward",
@@ -204,7 +255,9 @@
     "id": 21,
     "titulo": "Animal Crossing: New Horizons",
     "plataforma": "Nintendo",
-    "generos": ["Simulación"],
+    "generos": [
+      "Simulación"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.8,
     "desarrolladora": "Nintendo EPD",
@@ -214,7 +267,9 @@
     "id": 22,
     "titulo": "Doom Eternal",
     "plataforma": "PC",
-    "generos": ["Shooter"],
+    "generos": [
+      "Shooter"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.6,
     "desarrolladora": "id Software",
@@ -224,7 +279,10 @@
     "id": 23,
     "titulo": "Final Fantasy VII Remake",
     "plataforma": "PlayStation",
-    "generos": ["Rol", "Accion"],
+    "generos": [
+      "Rol",
+      "Accion"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.7,
     "desarrolladora": "Square Enix",
@@ -234,7 +292,9 @@
     "id": 24,
     "titulo": "FIFA 21",
     "plataforma": "PC",
-    "generos": ["Deporte"],
+    "generos": [
+      "Deporte"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.4,
     "desarrolladora": "EA Sports",
@@ -244,7 +304,10 @@
     "id": 25,
     "titulo": "Ghost of Tsushima",
     "plataforma": "PlayStation",
-    "generos": ["Accion", "Aventura"],
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.8,
     "desarrolladora": "Sucker Punch Productions",
@@ -254,7 +317,10 @@
     "id": 26,
     "titulo": "Sekiro: Shadows Die Twice",
     "plataforma": "PC",
-    "generos": ["Accion", "Aventura"],
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
     "anioLanzamiento": 2019,
     "calificacion": 4.6,
     "desarrolladora": "FromSoftware",
@@ -264,7 +330,10 @@
     "id": 27,
     "titulo": "Monster Hunter: World",
     "plataforma": "PC",
-    "generos": ["Rol", "Accion"],
+    "generos": [
+      "Rol",
+      "Accion"
+    ],
     "anioLanzamiento": 2018,
     "calificacion": 4.6,
     "desarrolladora": "Capcom",
@@ -274,7 +343,10 @@
     "id": 28,
     "titulo": "The Elder Scrolls V: Skyrim",
     "plataforma": "PC",
-    "generos": ["Rol", "Aventura"],
+    "generos": [
+      "Rol",
+      "Aventura"
+    ],
     "anioLanzamiento": 2011,
     "calificacion": 4.9,
     "desarrolladora": "Bethesda Game Studios",
@@ -284,7 +356,9 @@
     "id": 29,
     "titulo": "Celeste",
     "plataforma": "PC",
-    "generos": ["Plataformas"],
+    "generos": [
+      "Plataformas"
+    ],
     "anioLanzamiento": 2018,
     "calificacion": 4.7,
     "desarrolladora": "Maddy Makes Games",
@@ -294,7 +368,10 @@
     "id": 30,
     "titulo": "Hades",
     "plataforma": "PC",
-    "generos": ["Rol", "Accion"],
+    "generos": [
+      "Rol",
+      "Accion"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.8,
     "desarrolladora": "Supergiant Games",
@@ -304,7 +381,10 @@
     "id": 31,
     "titulo": "Control",
     "plataforma": "PC",
-    "generos": ["Accion", "Aventura"],
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
     "anioLanzamiento": 2019,
     "calificacion": 4.5,
     "desarrolladora": "Remedy Entertainment",
@@ -314,7 +394,10 @@
     "id": 32,
     "titulo": "Cuphead",
     "plataforma": "PC",
-    "generos": ["Plataformas", "Accion"],
+    "generos": [
+      "Plataformas",
+      "Accion"
+    ],
     "anioLanzamiento": 2017,
     "calificacion": 4.6,
     "desarrolladora": "Studio MDHR",
@@ -324,7 +407,9 @@
     "id": 33,
     "titulo": "Persona 5",
     "plataforma": "PlayStation",
-    "generos": ["Rol"],
+    "generos": [
+      "Rol"
+    ],
     "anioLanzamiento": 2016,
     "calificacion": 4.8,
     "desarrolladora": "Atlus",
@@ -334,7 +419,10 @@
     "id": 34,
     "titulo": "Bloodborne",
     "plataforma": "PlayStation",
-    "generos": ["Accion", "Rol"],
+    "generos": [
+      "Accion",
+      "Rol"
+    ],
     "anioLanzamiento": 2015,
     "calificacion": 4.7,
     "desarrolladora": "FromSoftware",
@@ -344,7 +432,10 @@
     "id": 35,
     "titulo": "Stardew Valley",
     "plataforma": "PC",
-    "generos": ["Simulación", "Rol"],
+    "generos": [
+      "Simulación",
+      "Rol"
+    ],
     "anioLanzamiento": 2016,
     "calificacion": 4.8,
     "desarrolladora": "ConcernedApe",
@@ -354,7 +445,10 @@
     "id": 36,
     "titulo": "NieR: Automata",
     "plataforma": "PC",
-    "generos": ["Accion", "Rol"],
+    "generos": [
+      "Accion",
+      "Rol"
+    ],
     "anioLanzamiento": 2017,
     "calificacion": 4.7,
     "desarrolladora": "PlatinumGames",
@@ -364,7 +458,9 @@
     "id": 37,
     "titulo": "Splatoon 2",
     "plataforma": "Nintendo",
-    "generos": ["Shooter"],
+    "generos": [
+      "Shooter"
+    ],
     "anioLanzamiento": 2017,
     "calificacion": 4.5,
     "desarrolladora": "Nintendo EPD",
@@ -374,7 +470,10 @@
     "id": 38,
     "titulo": "Ori and the Will of the Wisps",
     "plataforma": "PC",
-    "generos": ["Plataformas", "Aventura"],
+    "generos": [
+      "Plataformas",
+      "Aventura"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.8,
     "desarrolladora": "Moon Studios",
@@ -384,7 +483,9 @@
     "id": 39,
     "titulo": "Dragon Quest XI",
     "plataforma": "PC",
-    "generos": ["Rol"],
+    "generos": [
+      "Rol"
+    ],
     "anioLanzamiento": 2017,
     "calificacion": 4.6,
     "desarrolladora": "Square Enix",
@@ -394,7 +495,10 @@
     "id": 40,
     "titulo": "Diablo III",
     "plataforma": "PC",
-    "generos": ["Rol", "Accion"],
+    "generos": [
+      "Rol",
+      "Accion"
+    ],
     "anioLanzamiento": 2012,
     "calificacion": 4.5,
     "desarrolladora": "Blizzard Entertainment",
@@ -404,7 +508,9 @@
     "id": 41,
     "titulo": "Forza Horizon 4",
     "plataforma": "Xbox",
-    "generos": ["Carreras"],
+    "generos": [
+      "Carreras"
+    ],
     "anioLanzamiento": 2018,
     "calificacion": 4.7,
     "desarrolladora": "Playground Games",
@@ -414,7 +520,9 @@
     "id": 42,
     "titulo": "Street Fighter V",
     "plataforma": "PC",
-    "generos": ["Lucha"],
+    "generos": [
+      "Lucha"
+    ],
     "anioLanzamiento": 2016,
     "calificacion": 4.4,
     "desarrolladora": "Capcom",
@@ -424,7 +532,9 @@
     "id": 43,
     "titulo": "Mortal Kombat 11",
     "plataforma": "PC",
-    "generos": ["Lucha"],
+    "generos": [
+      "Lucha"
+    ],
     "anioLanzamiento": 2019,
     "calificacion": 4.6,
     "desarrolladora": "NetherRealm Studios",
@@ -434,7 +544,10 @@
     "id": 44,
     "titulo": "Fire Emblem: Three Houses",
     "plataforma": "Nintendo",
-    "generos": ["Rol", "Estrategia"],
+    "generos": [
+      "Rol",
+      "Estrategia"
+    ],
     "anioLanzamiento": 2019,
     "calificacion": 4.8,
     "desarrolladora": "Intelligent Systems",
@@ -444,7 +557,9 @@
     "id": 45,
     "titulo": "The Sims 4",
     "plataforma": "PC",
-    "generos": ["Simulación"],
+    "generos": [
+      "Simulación"
+    ],
     "anioLanzamiento": 2014,
     "calificacion": 4.4,
     "desarrolladora": "Maxis",
@@ -454,7 +569,10 @@
     "id": 46,
     "titulo": "Genshin Impact",
     "plataforma": "PC",
-    "generos": ["Rol", "Accion"],
+    "generos": [
+      "Rol",
+      "Accion"
+    ],
     "anioLanzamiento": 2020,
     "calificacion": 4.6,
     "desarrolladora": "miHoYo",
@@ -464,41 +582,65 @@
     "id": 47,
     "titulo": "Rocket League",
     "plataforma": "PC",
-    "generos": ["Deporte", "Carreras"],
+    "generos": [
+      "Deporte",
+      "Carreras"
+    ],
     "anioLanzamiento": 2015,
     "calificacion": 4.7,
     "desarrolladora": "Psyonix",
     "precio": 0
   },
   {
-    "id": 48,
-    "titulo": "Tetris Effect",
+    "id": 50,
+    "titulo": "Dead by Daylight",
     "plataforma": "PC",
-    "generos": ["Puzzle"],
-    "anioLanzamiento": 2018,
-    "calificacion": 4.8,
-    "desarrolladora": "Monstars Inc.",
-    "precio": 39.99
+    "generos": [
+      "Survival horror",
+      "Multijugador"
+    ],
+    "anioLanzamiento": 2016,
+    "calificacion": 4.4,
+    "desarrolladora": "Behaviour Interactive",
+    "precio": 19.99
   },
   {
-    "id": 49,
+    "id": 51,
     "titulo": "Among Us",
     "plataforma": "PC",
-    "generos": ["Party", "Multijugador"],
+    "generos": [
+      "Party",
+      "Multijugador"
+    ],
     "anioLanzamiento": 2018,
     "calificacion": 4.3,
     "desarrolladora": "InnerSloth",
     "precio": 4.99
   },
   {
-    "id": 50,
-    "titulo": "Dead by Daylight",
+    "id": 52,
+    "titulo": "Among Us",
     "plataforma": "PC",
-    "generos": ["Survival horror", "Multijugador"],
-    "anioLanzamiento": 2016,
-    "calificacion": 4.4,
-    "desarrolladora": "Behaviour Interactive",
-    "precio": 19.99
+    "generos": [
+      "Party",
+      "Multijugador"
+    ],
+    "anioLanzamiento": 2018,
+    "calificacion": 4.3,
+    "desarrolladora": "InnerSloth",
+    "precio": 4.99
+  },
+  {
+    "id": 53,
+    "titulo": "Among Us",
+    "plataforma": "PC",
+    "generos": [
+      "Party",
+      "Multijugador"
+    ],
+    "anioLanzamiento": 2018,
+    "calificacion": 0,
+    "desarrolladora": "InnerSloth",
+    "precio": 4.99
   }
 ]
-}

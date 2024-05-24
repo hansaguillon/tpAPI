@@ -1,5 +1,5 @@
 
-import { IsInt,IsString, Max, Min } from "class-validator";
+import { IsArray, IsInt,IsNumber,IsString, Max, Min,ArrayMinSize } from "class-validator";
 
 export class gameDTO  { 
 
@@ -7,18 +7,20 @@ export class gameDTO  {
     titulo: string;
     @IsString()
     plataforma: string;
-    @IsString()
+    @IsArray()
+    @ArrayMinSize(1, { message: 'El arreglo debe tener al menos un elemento' })
+    @IsString({ each: true, message: 'Cada elemento del arreglo debe ser una cadena' })
     generos: string[];
     @IsInt()
     @Min(2000)
     anioLanzamiento: number;
-    @IsInt()
+    @IsNumber()
     @Min(0)
     @Max(10)
     calificacion: number;
     @IsString()
     desarrolladora: string;
-    @IsInt()
+    @IsNumber()
     @Min(0)
     precio: number;
 

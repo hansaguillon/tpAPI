@@ -9,11 +9,11 @@ import games from '../data/games.json'
 
 @Injectable()
 export class GamesService {
-private gamesarray:typeof games.games = [];
-private jsonFilePath = path.join(__dirname, '..', 'data', 'games.json');
+private gamesarray:typeof games = [];
+private jsonFilePath = path.join(__dirname ,'..','..','src' ,'data','games.json');
 constructor()
 {
-  this.gamesarray = [... games.games];
+  this.gamesarray = [... games];
 
 }
 
@@ -41,7 +41,7 @@ getGamesByPlataforma(plataforma : string) : IGame[]
 
 }
 
-creategame(gamedto: gameDTO): IGame[]{
+creategame(gamedto: gameDTO): IGame{
     const nuevoID = this.createID(this.gamesarray);
 
     const newGame:IGame = {
@@ -56,16 +56,15 @@ creategame(gamedto: gameDTO): IGame[]{
     }
         
     this.gamesarray.push(newGame);
-    this.saveGamesToFile();
-    return this.gamesarray;
+    this.saveGamesToFile(this.gamesarray);
+    return newGame;
 }
 
-deleteGame(id:number):IGame[]{
+deleteGame(id:number){
     const updateGames = this.gamesarray.filter(game => game.id !== id);
 
-    this.saveGamesToFile();
-
-    return updateGames;
+    this.saveGamesToFile(updateGames);
+    return `El Juego con ID: `+ id +` fue eliminado`;
 
 }
 
@@ -82,8 +81,13 @@ createID(games:IGame[]):number{
 
 }
 
-private saveGamesToFile(): void {
-    fs.writeFileSync(this.jsonFilePath, JSON.stringify(this.gamesarray, null, 2));
-  }
+private saveGamesToFile(saveGames: IGame[]): void {
+    try {
+      console.log('Ruta del archivo:', this.jsonFilePath);
+      fs.writeFileSync(this.jsonFilePath, JSON.stringify(saveGames, null, 2));
+      console.log('Datos guardados correctamente');
+    } catch (err) {
+      console.error('Error al guardar datos:', err);
+    }}
   
 }
