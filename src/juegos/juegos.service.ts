@@ -14,22 +14,22 @@ private jsonFilePath = path.join(__dirname, '..', 'data', 'games.json');
 constructor()
 {
   this.gamesarray = [... games.games];
+
 }
+
+  
 
 getGames()
 {
     return this.gamesarray;
+
 }
 
-getGamesByID(id:number):IGame
+getGamesByID(id2:number):IGame
 {
   
-    const game = this.gamesarray.find(g => {
-      const idCondition = g.id === id;
-      console.log(`Comparando objeto con id ${g.id}: id === ${id} => ${idCondition}`);
-      return idCondition;
-    });
-    console.log(game);
+    const game = this.gamesarray.find(g => g.id === id2
+    );
     return game;
 }
 

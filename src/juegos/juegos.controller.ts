@@ -1,5 +1,6 @@
 import { Controller,Get,Param } from '@nestjs/common';
 import { GamesService } from './juegos.service';
+import { ParseIntPipe } from '@nestjs/common';
 
 
 @Controller('games')
@@ -15,7 +16,7 @@ getAllGames()
     }
 
 @Get(':id')
-getGamePorID(@Param('id')id:number)
+getGamePorID(@Param('id',ParseIntPipe)id:number)
 {
     return this.gameService.getGamesByID(id);
 }
