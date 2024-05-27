@@ -4,6 +4,7 @@ import { gameDTO } from './juegos.dto';
 import * as fs from 'fs';
 import * as path from 'path';
 import games from '../data/games.json'
+import { JuegosNotFoundException } from './juegos-not-found.exception';
 
 
 
@@ -25,19 +26,31 @@ getGames()
 
 }
 
-getGamesByID(id2:number):IGame
+getGamesByID(id:number):IGame
 {
-  
-    const game = this.gamesarray.find(g => g.id === id2
-    );
-    return game;
+  try{
+    const game = this.gamesarray.find(g => g.id === id);
+    if(Object.keys(game).length)return game;
+  }catch(e){
+    throw new JuegosNotFoundException(`El juego con el '${id}' no existe`);
+  }
+    
+    
 }
 
 getGamesByPlataforma(plataforma : string) : IGame[]
 {
-    const game = this.gamesarray.filter(g => g.plataforma === plataforma);
-    return game;
-
+    try{
+        const game = this.gamesarray.filter(g => g.plataforma === plataforma);
+        if(game.length > 0) {
+            return game}
+        else{
+            throw new JuegosNotFoundException(`La Plataforma '${plataforma}' no existe`);
+        }
+    }catch(e){
+        throw new JuegosNotFoundException(`La Plataforma'${plataforma}' no existe`);
+      }
+   
 
 }
 
