@@ -642,5 +642,18 @@
     "calificacion": 0,
     "desarrolladora": "InnerSloth",
     "precio": 4.99
+  },
+  {
+    "id": 54,
+    "titulo": "The Last of Us Part II",
+    "plataforma": "PlayStation",
+    "generos": [
+      "Accion",
+      "Aventura"
+    ],
+    "anioLanzamiento": 2010,
+    "calificacion": 4.7,
+    "desarrolladora": "888",
+    "precio": 59.99
   }
 ]
