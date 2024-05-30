@@ -649,6 +649,7 @@
   },
   {
     "id": 54,
+
     "titulo": "Among Us",
     "plataforma": "PC",
     "generos": [
@@ -672,5 +673,6 @@
     "calificacion": 4.3,
     "desarrolladora": "InnerSloth",
     "precio": 56
+
   }
 ]

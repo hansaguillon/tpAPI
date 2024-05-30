@@ -20,12 +20,13 @@ export class NotFoundExceptionFilter implements ExceptionFilter {
         });
     } else {
       // Manejo de otras excepciones
-      response
+    /* response
         .status(exception.getStatus())
         .json({
           statusCode: exception.getStatus(),
           message: exception.message,
-        });
+        });*/
+        throw exception;
     }
   }
 }
