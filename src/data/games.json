@@ -53,32 +53,33 @@
   },
   {
     "id": 5,
-    "titulo": "Grand Theft Auto V",
+    "titulo": "Among Us",
     "plataforma": "PC",
     "generos": [
-      "Accion",
-      "Aventura"
+      "Party",
+      "55"
     ],
-    "anioLanzamiento": 2013,
-    "calificacion": 4.7,
-    "desarrolladora": "Rockstar North",
-    "precio": 29.99
+    "anioLanzamiento": 2018,
+    "calificacion": 4.3,
+    "desarrolladora": "InnerSloth",
+    "precio": 56
   },
   {
     "id": 6,
-    "titulo": "Super Smash Bros. Ultimate",
-    "plataforma": "Nintendo",
+    "titulo": "Among Us",
+    "plataforma": "PC",
     "generos": [
-      "Lucha"
+      "Party",
+      "55"
     ],
-    "anioLanzamiento": 2018,
-    "calificacion": 4.8,
-    "desarrolladora": "Bandai Namco Studios",
-    "precio": 59.99
+    "anioLanzamiento": 2019,
+    "calificacion": 4.3,
+    "desarrolladora": "InnerSloth",
+    "precio": 56
   },
   {
     "id": 7,
-    "titulo": "Horizon Zero Dawn",
+    "titulo": "Among US",
     "plataforma": "PlayStation",
     "generos": [
       "Accion",
@@ -87,7 +88,9 @@
     "anioLanzamiento": 2017,
     "calificacion": 4.7,
     "desarrolladora": "Guerrilla Games",
-    "precio": 39.99
+    "precio": 39.99,
+    "cosa": "Algo",
+    "Algo": "Cosa"
   },
   {
     "id": 8,
@@ -178,15 +181,16 @@
   },
   {
     "id": 15,
-    "titulo": "Resident Evil Village",
+    "titulo": "Among Us",
     "plataforma": "PC",
     "generos": [
-      "Survival horror"
+      "Party",
+      "55"
     ],
-    "anioLanzamiento": 2021,
-    "calificacion": 4.6,
-    "desarrolladora": "Capcom",
-    "precio": 59.99
+    "anioLanzamiento": 2019,
+    "calificacion": 4.3,
+    "desarrolladora": "InnerSloth",
+    "precio": 56
   },
   {
     "id": 16,
@@ -642,5 +646,31 @@
     "calificacion": 0,
     "desarrolladora": "InnerSloth",
     "precio": 4.99
+  },
+  {
+    "id": 54,
+    "titulo": "Among Us",
+    "plataforma": "PC",
+    "generos": [
+      "Party",
+      "55"
+    ],
+    "anioLanzamiento": 2018,
+    "calificacion": 4.3,
+    "desarrolladora": "InnerSloth",
+    "precio": 56
+  },
+  {
+    "id": 55,
+    "titulo": "Among Us",
+    "plataforma": "PC",
+    "generos": [
+      "Party",
+      "55"
+    ],
+    "anioLanzamiento": 2018,
+    "calificacion": 4.3,
+    "desarrolladora": "InnerSloth",
+    "precio": 56
   }
 ]

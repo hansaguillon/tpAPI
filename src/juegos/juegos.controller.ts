@@ -1,4 +1,4 @@
-import { Body, Controller,Delete,Get,Param, Post } from '@nestjs/common';
+import { Body, Controller,Delete,Get,Param, Patch, Post,Put,ValidationPipe,UsePipes } from '@nestjs/common';
 import { GamesService } from './juegos.service';
 import { ParseIntPipe } from '@nestjs/common';
 import { gameDTO } from './juegos.dto';
@@ -26,8 +26,22 @@ getGamePorPlataforma(@Param('plataforma')plataforma:string)
 {
     return this.gameService.getGamesByPlataforma(plataforma);
 }
+@Put(':id')
+@UsePipes(new ValidationPipe({ whitelist: true }))
+putGame(@Param('id',ParseIntPipe)id:number,@Body()newGame:gameDTO)
+{
+    return this.gameService.reemplazarGame(id,newGame);
+}
+
+@Patch(':id')
+@UsePipes(new ValidationPipe({ whitelist: true,transform: true }))
+patchGame(@Param('id',ParseIntPipe)id:number,@Body()game:Partial<gameDTO>)
+{
+    return this.gameService.actualizarGame(id,game);
+}
 
 @Post()
+@UsePipes(new ValidationPipe({ whitelist: true }))
 create(@Body() dtojuego:gameDTO)
 {
     

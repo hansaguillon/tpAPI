@@ -80,6 +80,49 @@ deleteGame(id:number){
     return `El Juego con ID: `+ id +` fue eliminado`;
 
 }
+reemplazarGame(id:number,game: gameDTO):IGame{
+  try{
+    const indice = this.gamesarray.findIndex(gam => gam.id === id);
+    if(indice !== -1)
+      {
+        const actualizarGame :IGame =  {
+          id:this.gamesarray[indice].id,
+          titulo: game.titulo,
+          plataforma : game.plataforma,
+          generos : game.generos,
+          anioLanzamiento : game.anioLanzamiento,
+          calificacion : game.calificacion,
+          desarrolladora : game.desarrolladora,
+          precio : game.precio
+          }
+        this.gamesarray[indice] = actualizarGame;
+        this.saveGamesToFile(this.gamesarray);
+        return actualizarGame;
+      }
+  }catch(e){
+    throw new JuegosNotFoundException(`El juego con el '${id}' no existe`);
+  }
+}
+
+actualizarGame(id:number,game: Partial<gameDTO>):IGame
+{
+  try{
+    const indice = this.gamesarray.findIndex(juego => juego.id === id);
+  if (indice !== -1) {
+    const juegoActualizado = {
+      ...this.gamesarray[indice],
+      ...Object.keys(game)
+        .filter(key => game[key] !== undefined)
+        .reduce((obj, key) => ({ ...obj, [key]: game[key] }), {})
+    };
+    this.gamesarray[indice] = juegoActualizado;
+    this.saveGamesToFile(this.gamesarray);
+    return juegoActualizado;
+  }
+  }catch(e){
+    throw new JuegosNotFoundException(`El juego con el '${id}' no existe`);
+  }
+}
 
 
 createID(games:IGame[]):number{

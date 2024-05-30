@@ -7,9 +7,9 @@ import { NotFoundExceptionFilter } from './not-found-exception.filter';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule,);
   app.useGlobalPipes(new ValidationPipe(
-   { whitelist:true}
+   { whitelist:true,}
   ));
-  app.useGlobalFilters(new NotFoundExceptionFilter());
+  //app.useGlobalFilters(new NotFoundExceptionFilter());
   await app.listen(3000);
 }
 bootstrap();
