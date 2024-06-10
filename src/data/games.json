@@ -88,9 +88,7 @@
     "anioLanzamiento": 2017,
     "calificacion": 4.7,
     "desarrolladora": "Guerrilla Games",
-    "precio": 39.99,
-    "cosa": "Algo",
-    "Algo": "Cosa"
+    "precio": 39.99
   },
   {
     "id": 8,
@@ -106,8 +104,8 @@
   },
   {
     "id": 9,
-    "titulo": "Fortnite",
-    "plataforma": "PC",
+    "titulo": "Among US",
+    "plataforma": "PS",
     "generos": [
       "Battle Royale"
     ],
@@ -131,16 +129,16 @@
   },
   {
     "id": 11,
-    "titulo": "Assassin's Creed Valhalla",
+    "titulo": "Among Us",
     "plataforma": "PC",
     "generos": [
-      "Accion",
-      "Aventura"
+      "Party",
+      "55"
     ],
-    "anioLanzamiento": 2020,
-    "calificacion": 4.5,
-    "desarrolladora": "Ubisoft Montreal",
-    "precio": 59.99
+    "anioLanzamiento": 2019,
+    "calificacion": 4.3,
+    "desarrolladora": "InnerSloth",
+    "precio": 56
   },
   {
     "id": 12,
@@ -649,9 +647,8 @@
   },
   {
     "id": 54,
-
-    "titulo": "Among Us",
-    "plataforma": "PC",
+    "titulo": "Among US",
+    "plataforma": "play2",
     "generos": [
       "Party",
       "55"
@@ -659,20 +656,7 @@
     "anioLanzamiento": 2018,
     "calificacion": 4.3,
     "desarrolladora": "InnerSloth",
-    "precio": 56
-  },
-  {
-    "id": 55,
-    "titulo": "Among Us",
-    "plataforma": "PC",
-    "generos": [
-      "Party",
-      "55"
-    ],
-    "anioLanzamiento": 2018,
-    "calificacion": 4.3,
-    "desarrolladora": "InnerSloth",
-    "precio": 56
-
+    "precio": 56,
+    "otra cosa": "tambien agregame esta"
   }
 ]

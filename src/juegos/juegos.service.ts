@@ -106,22 +106,27 @@ reemplazarGame(id:number,game: gameDTO):IGame{
    
 actualizarGame(id:number,game: Partial<gameDTO>):IGame
 {
-  try{
-    const indice = this.gamesarray.findIndex(juego => juego.id === id);
-  if (indice !== -1) {
-    const juegoActualizado = {
-      ...this.gamesarray[indice],
-      ...Object.keys(game)
-        .filter(key => game[key] !== undefined)
-        .reduce((obj, key) => ({ ...obj, [key]: game[key] }), {})
-    };
-    this.gamesarray[indice] = juegoActualizado;
-    this.saveGamesToFile(this.gamesarray);
-    return juegoActualizado;
-  }
-  }catch(e){
-    throw new JuegosNotFoundException(`El juego con el '${id}' no existe`);
-  }
+  const indice = this.gamesarray.findIndex(juego => juego.id === id);
+  
+
+    if (indice !== -1) {
+      const juegoActualizado = { ...this.gamesarray[indice] };
+      console.log(`Juego antes de la actualización: ${JSON.stringify(juegoActualizado)}`);
+
+      for (const key in game) {
+        if (game[key] !== undefined) {
+          console.log(`Actualizando ${key} a ${game[key]}`);
+          juegoActualizado[key] = game[key];
+        }
+      }
+
+      this.gamesarray[indice] = juegoActualizado;
+      this.saveGamesToFile(this.gamesarray);
+      console.log(`Juego después de la actualización: ${JSON.stringify(juegoActualizado)}`);
+      return juegoActualizado;
+    } else {
+      throw new JuegosNotFoundException(`El juego con el id '${id}' no existe`);
+    }
 }
 
 
@@ -139,9 +144,7 @@ createID(games:IGame[]):number{
 
 private saveGamesToFile(saveGames: IGame[]): void {
     try {
-      console.log('Ruta del archivo:', this.jsonFilePath);
       fs.writeFileSync(this.jsonFilePath, JSON.stringify(saveGames, null, 2));
-      console.log('Datos guardados correctamente');
     } catch (err) {
       console.error('Error al guardar datos:', err);
     }}
