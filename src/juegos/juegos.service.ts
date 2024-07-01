@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { IGame } from './juegos.interface';
-import { gameDTO } from './juegos.dto';
+import { gameDTO, updateGamesDto } from './juegos.dto';
 import * as fs from 'fs';
 import * as path from 'path';
 import games from '../data/games.json'
@@ -104,7 +104,7 @@ reemplazarGame(id:number,game: gameDTO):IGame{
   }
 }
    
-actualizarGame(id:number,game: Partial<gameDTO>):IGame
+actualizarGame(id:number,game: updateGamesDto):IGame
 {
   const indice = this.gamesarray.findIndex(juego => juego.id === id);
   

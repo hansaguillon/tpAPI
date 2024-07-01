@@ -1,7 +1,7 @@
 import { Body, Controller,Delete,Get,Param, Patch, Post,Put,ValidationPipe,UsePipes } from '@nestjs/common';
 import { GamesService } from './juegos.service';
 import { ParseIntPipe } from '@nestjs/common';
-import { gameDTO } from './juegos.dto';
+import { gameDTO, updateGamesDto } from './juegos.dto';
 
 
 @Controller('games')
@@ -33,7 +33,7 @@ putGame(@Param('id',ParseIntPipe)id:number,@Body()newGame:gameDTO)
 }
 
 @Patch(':id')
-patchGame(@Param('id',ParseIntPipe)id:number,@Body()game:Partial<gameDTO>)
+patchGame(@Param('id',ParseIntPipe)id:number,@Body()game:updateGamesDto)
 {
     return this.gameService.actualizarGame(id,game);
 }

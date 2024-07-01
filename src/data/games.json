@@ -92,15 +92,16 @@
   },
   {
     "id": 8,
-    "titulo": "Minecraft",
-    "plataforma": "PC",
+    "titulo": "Among US",
+    "plataforma": "play2",
     "generos": [
       "Sandbox"
     ],
     "anioLanzamiento": 2009,
     "calificacion": 4.7,
     "desarrolladora": "Mojang Studios",
-    "precio": 26.99
+    "precio": 26.99,
+    "otra cosa": "tambien"
   },
   {
     "id": 9,
@@ -142,16 +143,16 @@
   },
   {
     "id": 12,
-    "titulo": "Death Stranding",
-    "plataforma": "PlayStation",
+    "titulo": "Among Us",
+    "plataforma": "PC",
     "generos": [
-      "Accion",
-      "Aventura"
+      "Party",
+      "55"
     ],
     "anioLanzamiento": 2019,
     "calificacion": 4.3,
-    "desarrolladora": "Kojima Productions",
-    "precio": 39.99
+    "desarrolladora": "InnerSloth",
+    "precio": 56
   },
   {
     "id": 13,
@@ -608,7 +609,7 @@
   },
   {
     "id": 51,
-    "titulo": "Among Us",
+    "titulo": "otro juego",
     "plataforma": "PC",
     "generos": [
       "Party",
@@ -621,7 +622,7 @@
   },
   {
     "id": 52,
-    "titulo": "Among Us",
+    "titulo": "otro juego",
     "plataforma": "PC",
     "generos": [
       "Party",
@@ -630,7 +631,9 @@
     "anioLanzamiento": 2018,
     "calificacion": 4.3,
     "desarrolladora": "InnerSloth",
-    "precio": 4.99
+    "precio": 4.99,
+    "otra cosa": "tambien",
+    "funcion": "tambien"
   },
   {
     "id": 53,
@@ -647,7 +650,7 @@
   },
   {
     "id": 54,
-    "titulo": "Among US",
+    "titulo": "otro juego",
     "plataforma": "play2",
     "generos": [
       "Party",
@@ -657,6 +660,34 @@
     "calificacion": 4.3,
     "desarrolladora": "InnerSloth",
     "precio": 56,
-    "otra cosa": "tambien agregame esta"
+    "otra cosa": "tambien"
+  },
+  {
+    "id": 55,
+    "titulo": "otro juego",
+    "plataforma": "play2",
+    "generos": [
+      "Party",
+      "55"
+    ],
+    "anioLanzamiento": 2018,
+    "calificacion": 4.3,
+    "desarrolladora": "InnerSloth",
+    "precio": 56,
+    "otra cosa": "tambien"
+  },
+  {
+    "id": 56,
+    "titulo": "otro juego",
+    "plataforma": "play2",
+    "generos": [
+      "Party",
+      "55"
+    ],
+    "anioLanzamiento": 2018,
+    "calificacion": 4.3,
+    "desarrolladora": "InnerSloth",
+    "precio": 56,
+    "otra cosa": "tambien"
   }
 ]
