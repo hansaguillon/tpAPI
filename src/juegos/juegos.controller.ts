@@ -26,6 +26,11 @@ getGamePorPlataforma(@Param('plataforma')plataforma:string)
 {
     return this.gameService.getGamesByPlataforma(plataforma);
 }
+@Get('nombre/:name')
+getGamePorNombre(@Param('name')name:string)
+{
+    return this.gameService.getGamesbyName(name);
+}
 @Put(':id')
 putGame(@Param('id',ParseIntPipe)id:number,@Body()newGame:gameDTO)
 {
